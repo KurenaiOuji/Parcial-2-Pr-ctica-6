@@ -1,0 +1,13 @@
+body {
+  color: #eee;
+  background-color: #222;
+  font-family: sans-serif;
+}
+
+a {
+  color: aqua;
+}
+
+a:hover {
+  opacity: 0.8;
+}
