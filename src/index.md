@@ -10,7 +10,7 @@ title: Hola Mundo 11ty
 - Otoño
 - Invierno
 
-[Acerca](/acerca)
+[Acerca]({{ '/acerca' | url }})
 
 ## Artículos de mi Blog
 
@@ -18,7 +18,7 @@ title: Hola Mundo 11ty
 
 {% for libro in collections.libros %}
 
-- [{{libro.data.title}}]({{ libro.url }})
+- [{{libro.data.title}}]({{ libro.url | url }})
 
 {% endfor %}
 
@@ -26,6 +26,6 @@ title: Hola Mundo 11ty
 
 {% for serie in collections.series %}
 
-- [{{serie.data.title}}]({{ serie.url }})
+- [{{serie.data.title}}]({{ serie.url | url }})
 
 {% endfor %}
