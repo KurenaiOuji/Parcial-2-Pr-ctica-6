@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña del libro 1
-tags: libros
+title: Reseña del VideoJuego 1
+tags: VideoJuego
 ---
 
 # {{title}}

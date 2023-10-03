@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Reseña de la serie 3
+title: Reseña de la Serie 3
 tags: series
 ---
 

@@ -1,13 +1,13 @@
 body {
-  color: #eee;
-  background-color: #222;
+  color: #1E92E6;
+  background-color: #000;
   font-family: sans-serif;
 }
 
 a {
-  color: aqua;
+  color: #E68E39
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }

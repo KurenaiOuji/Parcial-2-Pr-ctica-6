@@ -1,24 +1,21 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Fernando Horta Peña
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
+<!-- ![Yo]({{ '/static/img/ser-feliz.jpg' | url }}) -->
 
 [Acerca]({{ '/acerca' | url }})
 
 ## Artículos de mi Blog
 
-### Categoría Libros
+### Categoría Anime
 
-{% for libro in collections.libros %}
+{% for Anime in collections.Anime %}
 
-- [{{libro.data.title}}]({{ libro.url | url }})
+- [{{Anime.data.title}}]({{ Anime.url | url }})
 
 {% endfor %}
 
@@ -27,5 +24,13 @@ title: Hola Mundo 11ty
 {% for serie in collections.series %}
 
 - [{{serie.data.title}}]({{ serie.url | url }})
+
+{% endfor %}
+
+### Categoria Video Juego
+
+{% for VideoJuego in collections.VideoJuego %}
+
+- [{{VideoJuego.data.title}}]({{ VideoJuego.url | url }})
 
 {% endfor %}
