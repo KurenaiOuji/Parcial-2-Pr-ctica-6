@@ -1,12 +1,18 @@
 ---
 layout: base.njk
-title: Sección Acerca
+title:  Un poco de mi
 ---
 
 # {{ title }}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque rem similique asperiores voluptas inventore vero illum eveniet sunt, aut velit incidunt laborum modi atque excepturi praesentium ut veritatis. Facilis.
+Actualmente soy estudiante de la univercidad Amerike, en la cual estudio la carrera de Desarrollo de Software Interactivo y Videojuegos.
 
-![ser Feliz]({{ '/static/img/ser-feliz.jpg' | url }})
+
+Soy el pelirrojo de Amerike
+
+- cdmx2458@amerike.edu.mx
+- GitHub/KurenaiOuji
+
+![Yo]({{ '/static/img/Yo.jpg' | url }})
 
 [Home]({{ '/' | url }})

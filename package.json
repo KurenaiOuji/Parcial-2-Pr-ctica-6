@@ -1,16 +1,19 @@
 {
-  "name": "amerike-template-11ty-3dev",
+  "name": "amerike-template-eleventy-3dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parcial-2-Practica-6",
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy --pathprefix=/amerike-template-eleventy-3dev/"
+    "build": "npx @11ty/eleventy --pathprefix=/Parcial-2-Practica-6/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
   }
 }

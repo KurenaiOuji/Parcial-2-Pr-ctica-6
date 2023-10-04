@@ -7,9 +7,11 @@ title: Fernando Horta Peña
 
 <!-- ![Yo]({{ '/static/img/ser-feliz.jpg' | url }}) -->
 
-[Acerca]({{ '/acerca' | url }})
+[Acerca de Mi]({{ '/acerca' | url }})
 
 ## Artículos de mi Blog
+
+En este blog dare unas reseñas sobre algnas Series, Animes y Video Juuegos los cuales disfruto.
 
 ### Categoría Anime
 
